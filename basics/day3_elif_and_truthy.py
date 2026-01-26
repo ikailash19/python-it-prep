@@ -7,14 +7,14 @@ elif score >= 75:
 elif score >= 60:
     print("C")
 else:
-    print("Fail")
+    print("Fail") # Fail
 
 age = 25
 has_id = True
 
 if age >= 18:
     if has_id:
-        print("Allowed")
+        print("Allowed") # Allowed
     else:
         print("ID required")
 else:
@@ -27,3 +27,10 @@ for v in values:
         print(v, "-> Truthy")
     else:
         print(v, "-> Falsy")
+# 0 -> Falsy
+# 1 -> Truthy
+#   -> Falsy
+# 'text' -> Truthy
+# [] -> Falsy
+# [1,2] -> Truthy
+# None -> Falsy

@@ -4,9 +4,9 @@ x = 10
 y = "10"
 z = True
 
-print(x, type(x))
-print(y, type(y))
-print(z, type(z))
+print(x, type(x)) # 10 <class 'int'>
+print(y, type(y)) # 10 <class 'str'>
+print(z, type(z)) # True <class 'bool'>
 
 x = x + 5
-print(x)
+print(x) # 15

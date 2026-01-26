@@ -8,7 +8,7 @@ print(10 == "10") # False
 age = 18
 
 if age >= 18:
-    print("Adult")
+    print("Adult") # Adult
 else:
     print("Minor")
 
