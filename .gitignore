@@ -5,3 +5,6 @@ __pycache__/
 
 # PyCharm
 .idea/
+
+# Mac
+.DS_Store
